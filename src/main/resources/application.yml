@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: system
+    password: ko687168
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+
+mybatis:
+  mapper-locations: classpath:/com/example/kruscaloracle/mapper/*.xml
