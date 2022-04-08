@@ -22,7 +22,7 @@ public class KruscalController {
     }
 
 
-    @GetMapping("/")
+    @GetMapping("/Kruscal")
     public Edata[] kruscal(){
         int Edgenums = 0;
         int vernums = 0;
